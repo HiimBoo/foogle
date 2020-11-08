@@ -18,18 +18,20 @@
 
   <body>
     <!-- Header-section -->
-    <header>
-      <a href="#"
-        ><img class="logo" src="./resources/img/logo.png" alt="logo" />
-      </a>
-      <ul class="main-navigation">
-        <!-- ul: unordered list -->
-        <!-- li: list item -->
-        <li><a href="#">How client think</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <header id="home">
+      <nav>
+        <a href="#home"
+          ><img class="logo" src="./resources/img/logo.png" alt="logo" />
+        </a>
+        <ul class="main-navigation">
+          <!-- ul: unordered list -->
+          <!-- li: list item -->
+          <li><a href="#testimonials">How client think</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
       <div class="clearfix"></div>
       <div class="row">
         <div class="heading-main-box">
@@ -38,20 +40,20 @@
             English together. <br />
             So join with us.
           </h1>
-          <a href="#" class="button">Tell me more</a>
-          <a href="#" class="button">Join us</a>
+          <a href="#about" class="button">Tell me more</a>
+          <a href="#products" class="button">Join us</a>
         </div>
       </div>
     </header>
 
     <!-- About-section -->
-    <section class="about-section">
+    <section class="about-section" id="about">
       <div class="row">
         <h2>About Us</h2>
         <p class="p-long">
-          - We are people that are studying English by ourselves, we believe
-          that you don’t need to pay so much money for being good at English,
-          we’re here to help you
+          We are people that are studying English by ourselves, we believe that
+          you don’t need to pay so much money for being good at English, we’re
+          here to help you
         </p>
       </div>
       <div class="row">
@@ -74,7 +76,7 @@
       </div>
 
       <!-- Products-section -->
-      <section class="products-section">
+      <section class="products-section" id="products">
         <h2>Products</h2>
         <div class="row">
           <div class="col span-1-of-3">
@@ -85,7 +87,7 @@
                 <li><i class="fas fa-check small-icon"></i>Native voices</li>
                 <li><i class="fas fa-check small-icon"></i>Master IPA</li>
               </ul>
-              <a href="#" class="button">JOIN US</a>
+              <a href="#contacts" class="button">JOIN US</a>
             </div>
           </div>
           <div class="col span-1-of-3">
@@ -98,7 +100,7 @@
                   <i class="fas fa-check small-icon"></i>Speaking naturally
                 </li>
               </ul>
-              <a href="#" class="button">JOIN US</a>
+              <a href="#contacts" class="button">JOIN US</a>
             </div>
           </div>
           <div class="col span-1-of-3">
@@ -111,7 +113,7 @@
                   <i class="fas fa-check small-icon"></i>Hearing English clearly
                 </li>
               </ul>
-              <a href="#" class="button">JOIN US</a>
+              <a href="#contacts" class="button">JOIN US</a>
             </div>
           </div>
         </div>
@@ -119,7 +121,7 @@
     </section>
 
     <!-- Testimonials-Section -->
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="testimonials">
       <h2>testimonials</h2>
       <div class="row">
         <div class="col span-1-of-3">
@@ -159,7 +161,7 @@
     </section>
 
     <!-- Sponsors-section -->
-    <section class="sponsors-section">
+    <section class="sponsors-section" id="sponsors">
       <h2>sponsors</h2>
       <ul class="sponsors-showcase">
         <li>
@@ -207,18 +209,21 @@
     </section>
 
     <!-- Contact-section -->
-    <section class="contacts-section">
+    <section class="contacts-section" id="contacts">
       <div class="row">
         <div class="col span-1-of-3">
           <ul class="information">
             <li>
-              <i class="fas fa-map-marker-alt"></i>Address: 21A, SelfTaught
-              street, Ha Noi
+              <i class="fas fa-map-marker-alt small-icon"></i>Address: 21A,
+              SelfTaught street, Ha Noi
             </li>
             <li>
-              <i class="fas fa-envelope"></i>Email: selftaughtteam@edu.com
+              <i class="fas fa-envelope small-icon"></i>Email:
+              selftaughtteam@edu.com
             </li>
-            <li><i class="fas fa-phone"></i>SĐT: (+084 )099-923-232-320</li>
+            <li>
+              <i class="fas fa-phone small-icon"></i>SĐT: (+084 )099-923-232-320
+            </li>
           </ul>
           <ul class="social-icon">
             <li><i class="fab fa-facebook"></i></li>
@@ -228,7 +233,7 @@
           </ul>
         </div>
         <div class="col span-2-of-3">
-          <form action="">
+          <form>
             <div class="row">
               <div class="col span-1-of-3">
                 <label>Name</label>
@@ -242,7 +247,7 @@
                 <label>Email</label>
               </div>
               <div class="col span-2-of-3">
-                <input type="text" placeholder="Your Email" />
+                <input type="email" placeholder="Your Email" />
               </div>
             </div>
             <div class="row">
@@ -250,21 +255,49 @@
                 <label>Message</label>
               </div>
               <div class="col span-2-of-3">
-                <textarea
-                  name="message"
-                  placeholder="Your message"
-                  cols="30"
-                  rows="2"
-                ></textarea>
+                <textarea name="message" placeholder="Your message"></textarea>
               </div>
             </div>
             <div class="row">
-              <input type="submit" class="btn" value="Send it" />
+              <input type="submit" class="button" value="Send it" />
             </div>
           </form>
         </div>
       </div>
     </section>
     <footer>Copyright &copy; 2018 by Self-taught Team</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script>
+      // scroll smooth
+      $(document).ready(function () {
+        $("a[href*=#]").click(function (event) {
+          $("html, body").animate(
+            {
+              scrollTop: $($.attr(this, "href")).offset().top,
+            },
+            500
+          );
+          event.preventDefault();
+        });
+        // sticky nav
+        $(".about-section").waypoint(
+          function (direction) {
+            if (direction == "down") {
+              $("nav").addClass("sticky");
+            } else {
+              $("nav").removeClass("sticky");
+            }
+          },
+          {
+            offset: "600px",
+          }
+        );
+      });
+    </script>
   </body>
 </html>
