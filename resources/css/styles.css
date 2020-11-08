@@ -304,3 +304,76 @@ cite img {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+/* --------------------------------- */
+/* -----SPONSORS SECTION------------ */
+/* --------------------------------- */
+
+.sponsors-section {
+  background-color: #f4f4f4;
+}
+
+.sponsors-showcase {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 250px 50px 280px;
+}
+
+.sponsors-section .sponsors-showcase img {
+  width: 140px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.sponsors-section h2 {
+  margin-bottom: 50px;
+}
+
+.sponsors-section .sponsors-showcase img:hover,
+.sponsors-section .sponsors-showcase img:active {
+  transform: scale(1.3);
+}
+
+.sponsors-showcase li {
+  list-style: none;
+  text-align: center;
+  /* width: 20%; */
+}
+
+.sponsors-showcase figcaption {
+  word-spacing: 2px;
+  font-weight: 900;
+  font-size: 120%;
+  color: #265077;
+  /* cursor: pointer; */
+}
+
+/* ---------------------------------------- */
+/* -----------Contacts-Form---------------- */
+/* ---------------------------------------- */
+
+.contacts-section {
+  background-image: linear-gradient(
+      45deg,
+      rgba(2, 33, 64, 0.8) 55%,
+      rgba(45, 95, 93, 0.85)
+    ),
+    url("../img/background5.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ---------------------------------------- */
+/* -------------Footer--------------------- */
+/* ---------------------------------------- */
+
+footer {
+  text-align: center;
+  background-color: #494949;
+  color: white;
+  padding: 20px;
+}
