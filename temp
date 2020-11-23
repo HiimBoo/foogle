@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/grid.css" />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <title>SelfTaught</title>
+  </head>
+
+  <body>
+    <!-- Header-section -->
+    <header id="home">
+      <nav>
+        <a href="#home"
+          ><img class="logo" src="./resources/img/logo.png" alt="logo" />
+        </a>
+        <ul class="main-navigation">
+          <li><a href="#testimonials">How client think</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+      <div class="row">
+        <div class="heading-main-box">
+          <h1>
+            We will study <br />
+            English together. <br />
+            So join with us.
+          </h1>
+          <a href="./index -another-version.html" class="button"
+            >Tell me more</a
+          >
+          <a href="#products" class="button">Join us</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About-section -->
+    <section class="about-section" id="about">
+      <div class="row">
+        <h2>About Us</h2>
+        <p class="p-long">
+          We are people that are studying English by ourselves, we believe that
+          you don’t need to pay so much money for being good at English, we’re
+          here to help you
+        </p>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-4 about-picture">
+          <img src="./resources/img/activities1.jpeg" alt="activities1" />
+          <p class="picture-title">Team working</p>
+        </div>
+        <div class="col span-1-of-4 about-picture">
+          <img src="./resources/img/activities2.jpeg" alt="activities2" />
+          <p class="picture-title">Funny class</p>
+        </div>
+        <div class="col span-1-of-4 about-picture">
+          <img src="./resources/img/activities3.jpeg" alt="activities3" />
+          <p class="picture-title">Be confident</p>
+        </div>
+        <div class="col span-1-of-4 about-picture">
+          <img src="./resources/img/activities4.jpeg" alt="activities4" />
+          <p class="picture-title">All our friends</p>
+        </div>
+      </div>
+
+      <!-- Products-section -->
+      <!-- <section class="products-section" id="products">
+        <h2>Products</h2>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <div class="product-box">
+              <h3>Pronunciation class</h3>
+              <p class="product-price">19$ <span>/month</span></p>
+              <ul>
+                <li><i class="fas fa-check small-icon"></i>Native voices</li>
+                <li><i class="fas fa-check small-icon"></i>Master IPA</li>
+              </ul>
+              <a href="#contacts" class="button">JOIN US</a>
+            </div>
+          </div>
+          <div class="col span-1-of-3">
+            <div class="product-box">
+              <h3>Speaking class</h3>
+              <p class="product-price">25$ <span>/month</span></p>
+              <ul>
+                <li><i class="fas fa-check small-icon"></i>Native speaking</li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Speaking naturally
+                </li>
+              </ul>
+              <a href="#contacts" class="button">JOIN US</a>
+            </div>
+          </div>
+          <div class="col span-1-of-3">
+            <div class="product-box">
+              <h3>Listening class</h3>
+              <p class="product-price">25$ <span>/month</span></p>
+              <ul>
+                <li><i class="fas fa-check small-icon"></i>Native speech</li>
+                <li>
+                  <i class="fas fa-check small-icon"></i>Hearing English clearly
+                </li>
+              </ul>
+              <a href="#contacts" class="button">JOIN US</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section> -->
+
+    <!-- Testimonials-Section -->
+    <!-- <section class="testimonials-section" id="testimonials">
+      <h2>testimonials</h2>
+      <div class="row">
+        <div class="col span-1-of-3">
+          <blockquote>
+            The course is very helpful, I can speak English fluently and I think
+            The SF English became my second family, I love everyone very much.
+            Thank you
+            <cite>
+              <img src="/resources/img/person5.jpeg" alt="person 1" /> Nguyen
+              Chem Gio</cite
+            >
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            I believe that who came to This English centre would love this place
+            as I did, when the course finished, I feel sad because studying in
+            that place I always felt funny
+            <cite>
+              <img src="/resources/img/person2.jpeg" alt="person 2" /> Tran Vo
+              Van</cite
+            >
+          </blockquote>
+        </div>
+        <div class="col span-1-of-3">
+          <blockquote>
+            Trust me, you can master English just by joining this class, I did,
+            so I believe that you can too. Hope that one day, you can come and
+            join in this class
+            <cite>
+              <img src="/resources/img/person4.jpeg" alt="person 3" /> Le Du
+              Do</cite
+            >
+          </blockquote>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Foogle-section -->
+    <section class="sponsors-section" id="sponsors">
+      <h2>foogle</h2>
+      <div id="container">
+        <h1>Foogle</h1>
+  
+        <div id="container1">
+          <img id="img" src="" alt="img" />
+        </div>
+  
+        <div id="container2">
+          <button id="like" onclick="handleLikeClick(historyArray)">Like</button>
+          <a id="search" href="#" target="_blank">u hungry?</a>
+          <button id="dislike" onclick="handleDislikeClick(historyArray)">
+            Dislike
+          </button>
+        </div>
+  
+        <div id="container3">
+          <button id="show-like" onclick="renderArray(historyArray,likeList)">
+            Show liked food
+          </button>
+          <button
+            id="show-dislike"
+            onclick="renderArray(historyArray,dislikeList)"
+          >
+            Show disliked food
+          </button>
+        </div>
+        <ul id="like-list"></ul>
+        <ul id="dislike-list"></ul>
+      </div>
+  
+      <span id="result"></span>
+  
+    </section>
+
+    <!-- Contact-section -->
+    <section class="contacts-section" id="contacts">
+      <div class="row">
+        <div class="col span-1-of-3">
+          <ul class="information">
+            <li>
+              <i class="fas fa-map-marker-alt small-icon"></i>Address: 12 Ton
+              Dang, District 4, TP HCM
+            </li>
+            <li>
+              <i class="fas fa-envelope small-icon"></i>Email:
+              thanhlong6899@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-phone small-icon"></i>SĐT: (+084 )901 779 774
+            </li>
+          </ul>
+          <ul class="social-icon">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-google-plus-square"></i></li>
+          </ul>
+        </div>
+        <div class="col span-2-of-3">
+          <form>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Name</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="text" placeholder="Your Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Email</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="email" placeholder="Your Email" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Message</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Your message"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" class="button" value="Send it" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>Copyright &copy; 2020 by 10n9</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

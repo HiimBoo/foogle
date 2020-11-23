@@ -238,144 +238,49 @@ header {
   filter: brightness(55%) blur(2px);
 }
 
-/* ---------------------------------- */
-/* -------PRODUCTS SECTION---------- */
-/* --------------------------------- */
-
-.products-section {
-  /* width: 100vw; */
-  background-color: #f4f4f4;
-}
-
-.products-section h2 {
-  margin-bottom: 50px;
-}
-
-.product-box {
-  background-color: #eeefff;
-  width: 90%;
-  height: 350px;
-  box-shadow: 3px 5px 10px #e0e0e0;
-}
-
-.product-price {
-  color: #265077;
-  font-size: 250%;
-  font-weight: 300;
-  text-align: center;
-}
-
-.product-price span {
-  font-size: 80%;
-}
-
-.product-box ul li {
-  margin-left: 20%;
-  list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.product-box .button {
-  margin-left: 20%;
-}
-
-/* ---------------------------- ----------*/
-/* -------TESTIMONIALS SECTION----------- */
-/* ------------------------------------- */
-
-.testimonials-section {
-  background-image: linear-gradient(
-      45deg,
-      rgba(2, 33, 64, 0.8) 55%,
-      rgba(45, 95, 93, 0.85)
-    ),
-    url("../img/background2.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.testimonials-section h2 {
-  margin-bottom: 70px;
-}
-
-blockquote::before {
-  display: block;
-  content: "\201C";
-  font-size: 400%;
-  position: absolute;
-  top: -10px;
-  left: -10px;
-}
-
-blockquote {
-  position: relative;
-  width: 95%;
-  color: white;
-  font-style: italic;
-  line-height: 140%;
-}
-
-cite {
-  display: block;
-  color: #6b95bd;
-  margin-top: 25px;
-}
-
-cite img {
-  border-radius: 50%;
-  border: 2px solid #265077;
-  height: 50px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-/* --------------------------------- */
-/* -----SPONSORS SECTION------------ */
-/* --------------------------------- */
-
-.sponsors-section {
-  background-color: #f4f4f4;
-}
-
-.sponsors-showcase {
+/* -------------------------------------- */
+/* ----------------Foogle---------------- */
+/* -------------------------------------- */
+#container {
   display: flex;
-  justify-content: space-around;
-  margin: 50px 250px 50px 280px;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 100vw;
+  transform: translate(-7%);
+  margin-top: 60px;
+}
+#container1 {
+  align-self: center;
+  margin-top: 80px;
+}
+#img {
+  width: 50vw;
+  height: 50vh;
 }
 
-.sponsors-section .sponsors-showcase img {
-  width: 200px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.5s;
+#container2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30vw;
 }
 
-.sponsors-section h2 {
-  margin-bottom: 50px;
+#container3 {
+  align-self: center;
 }
 
-.sponsors-section .sponsors-showcase img:hover,
-.sponsors-section .sponsors-showcase img:active {
-  transform: scale(1.3);
+#container3 #show-like {
+  margin-right: 9vw;
+}
+#container3 #show-dislike {
+  margin-left: 9vw;
 }
 
-.sponsors-showcase li {
-  list-style: none;
-  text-align: center;
-  /* width: 20%; */
-}
+/* modal */
 
-.sponsors-showcase figcaption {
-  word-spacing: 2px;
-  font-weight: 900;
-  font-size: 120%;
-  color: #265077;
-  /* cursor: pointer; */
+#liked-food li img {
+  width: 50px;
+  height: 50px;
 }
 
 /* ---------------------------------------- */
